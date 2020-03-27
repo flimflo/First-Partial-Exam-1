@@ -5,3 +5,89 @@ div{
     padding: 5px;
 }
 
+@media (min-width:300px){
+  body {
+    background-color: red;
+  }
+  .heading, .content, .main{
+    display: none;
+  }
+  .navigation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .nav-box{
+    width: 150px;
+  }
+}
+
+@media (min-width:600px){
+  body {
+    background-color: blue;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .side {
+    width: 26%;
+  }
+
+  .special-side-box{
+    margin-top: 220px;
+  }
+
+  .main {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    }
+}
+
+@media (min-width:991px){
+  body {
+    background-color: yellow;
+  }
+
+  .heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .heading-box{
+    width: 30%;
+    text-align: center;
+  }
+  .navigation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .nav-box{
+    width: 100px;
+  }
+  .content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .side {
+    width: 26%;
+  }
+
+  .side-box{
+    height: 29%;
+  }
+
+  .main {
+    display: flex;
+    width: 70%;
+    }
+
+}
