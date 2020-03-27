@@ -1,0 +1,35 @@
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+}
+
+.js-search-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span, input, button {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input{
+  width: 50%;
+  align-self: center;
+}
