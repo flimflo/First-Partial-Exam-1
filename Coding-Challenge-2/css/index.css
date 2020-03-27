@@ -6,9 +6,6 @@ div{
 }
 
 @media (min-width:300px){
-  body {
-    background-color: red;
-  }
   .heading, .content, .main{
     display: none;
   }
@@ -23,9 +20,6 @@ div{
 }
 
 @media (min-width:600px){
-  body {
-    background-color: blue;
-  }
 
   .content{
     display: flex;
@@ -49,9 +43,6 @@ div{
 }
 
 @media (min-width:991px){
-  body {
-    background-color: yellow;
-  }
 
   .heading{
     display: flex;
